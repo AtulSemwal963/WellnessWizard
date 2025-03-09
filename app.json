@@ -1,0 +1,141 @@
+{
+  "expo": {
+    "name": "Wellness Wizard",
+    "slug": "wellnesswizard",
+    "version": "1.0.0",
+    "icon": "./assets/images/adaptive-icon-device.png",
+    "splash": {
+      "image": "./assets/images/splashNew.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "install": {
+      "exclude": [
+        "react-native@~0.76.6",
+        "react-native-reanimated@~3.16.1",
+        "react-native-gesture-handler@~2.20.0",
+        "react-native-screens@~4.4.0",
+        "react-native-safe-area-context@~4.12.0",
+        "react-native-webview@~13.12.5"
+      ]
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "react-native-auth0",
+        {
+          "domain": "wellnesswizard.us.auth0.com"
+        }
+      ],
+      "expo-secure-store",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-4165091630827088~5658120046",
+          "iosAppId": "ca-app-pub-4165091630827088~5658120046"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 26
+          }
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow Wellness Wizard to use the microphone.",
+          "speechRecognitionPermission": "Allow Wellness Wizard to use speech recognition.",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox"
+          ]
+        }
+      ],
+      "react-native-health-connect"
+    ],
+    "android": {
+      "package": "com.wellnesswizard",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon-device.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.health.READ_ACTIVE_CALORIES_BURNED",
+        "android.permission.health.WRITE_ACTIVE_CALORIES_BURNED",
+        "android.permission.health.READ_BASAL_BODY_TEMPERATURE",
+        "android.permission.health.WRITE_BASAL_BODY_TEMPERATURE",
+        "android.permission.health.READ_BASAL_METABOLIC_RATE",
+        "android.permission.health.WRITE_BASAL_METABOLIC_RATE",
+        "android.permission.health.READ_BLOOD_GLUCOSE",
+        "android.permission.health.WRITE_BLOOD_GLUCOSE",
+        "android.permission.health.READ_BLOOD_PRESSURE",
+        "android.permission.health.WRITE_BLOOD_PRESSURE",
+        "android.permission.health.READ_BODY_FAT",
+        "android.permission.health.WRITE_BODY_FAT",
+        "android.permission.health.READ_BODY_TEMPERATURE",
+        "android.permission.health.WRITE_BODY_TEMPERATURE",
+        "android.permission.health.READ_BONE_MASS",
+        "android.permission.health.WRITE_BONE_MASS",
+        "android.permission.health.READ_CERVICAL_MUCUS",
+        "android.permission.health.WRITE_CERVICAL_MUCUS",
+        "android.permission.health.READ_EXERCISE",
+        "android.permission.health.WRITE_EXERCISE",
+        "android.permission.health.READ_DISTANCE",
+        "android.permission.health.WRITE_DISTANCE",
+        "android.permission.health.READ_ELEVATION_GAINED",
+        "android.permission.health.WRITE_ELEVATION_GAINED",
+        "android.permission.health.READ_FLOORS_CLIMBED",
+        "android.permission.health.WRITE_FLOORS_CLIMBED",
+        "android.permission.health.READ_HEART_RATE",
+        "android.permission.health.WRITE_HEART_RATE",
+        "android.permission.health.READ_HEIGHT",
+        "android.permission.health.WRITE_HEIGHT",
+        "android.permission.health.READ_HYDRATION",
+        "android.permission.health.WRITE_HYDRATION",
+        "android.permission.health.READ_LEAN_BODY_MASS",
+        "android.permission.health.WRITE_LEAN_BODY_MASS",
+        "android.permission.health.READ_MENSTRUATION",
+        "android.permission.health.WRITE_MENSTRUATION",
+        "android.permission.health.READ_NUTRITION",
+        "android.permission.health.WRITE_NUTRITION",
+        "android.permission.health.READ_OVULATION_TEST",
+        "android.permission.health.WRITE_OVULATION_TEST",
+        "android.permission.health.READ_OXYGEN_SATURATION",
+        "android.permission.health.WRITE_OXYGEN_SATURATION",
+        "android.permission.health.READ_POWER",
+        "android.permission.health.WRITE_POWER",
+        "android.permission.health.READ_RESPIRATORY_RATE",
+        "android.permission.health.WRITE_RESPIRATORY_RATE",
+        "android.permission.health.READ_RESTING_HEART_RATE",
+        "android.permission.health.WRITE_RESTING_HEART_RATE",
+        "android.permission.health.READ_SEXUAL_ACTIVITY",
+        "android.permission.health.WRITE_SEXUAL_ACTIVITY",
+        "android.permission.health.READ_SLEEP",
+        "android.permission.health.WRITE_SLEEP",
+        "android.permission.health.READ_SPEED",
+        "android.permission.health.WRITE_SPEED",
+        "android.permission.health.READ_STEPS",
+        "android.permission.health.WRITE_STEPS",
+        "android.permission.health.READ_TOTAL_CALORIES_BURNED",
+        "android.permission.health.WRITE_TOTAL_CALORIES_BURNED",
+        "android.permission.health.READ_VO2_MAX",
+        "android.permission.health.WRITE_VO2_MAX",
+        "android.permission.health.READ_WEIGHT",
+        "android.permission.health.WRITE_WEIGHT",
+        "android.permission.health.READ_WHEELCHAIR_PUSHES",
+        "android.permission.health.WRITE_WHEELCHAIR_PUSHES",
+        "android.permission.health.WRITE_EXERCISE_ROUTE"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5ea9b1c-c359-45af-bcd7-59690f982b01"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+[
+    {
+      "chatId":"12345",
+    "chatName":"chat1",
+    "chatDate":"string",
+    "chat":{
+      "timestamp":"1234",
+      "message":[
+        {
+          "messageId": "ai1",
+          "role": "model",
+          "parts":[{"text":"Hello! I'm Wellness Wizard, your AI health assistant. How can I help you today? 😊 Feel free to ask me anything related to your health, and I'll do my best to assist!"}]
+        },
+        {
+          "messageId": "12345",
+          "role": "user",
+          "parts":[{"text":"text from user"}]
+        },
+        {
+          "messageId": "ai1",
+          "role": "model",
+          "parts":[{"text":"Hello! I'm Wellness Wizard, your AI health assistant. How can I help you today? 😊 Feel free to ask me anything related to your health, and I'll do my best to assist!"}]
+        } 
+      ]
+    } 
+    },
+    {
+      "chatId":"12345",
+    "chatName":"chat1",
+    "chatDate":"string",
+    "chat":{
+      "timestamp":"1234",
+      "message":[
+        {
+          "messageId": "ai1",
+          "role": "model",
+          "parts":[{"text":"Hello! I'm Wellness Wizard, your AI health assistant. How can I help you today? 😊 Feel free to ask me anything related to your health, and I'll do my best to assist!"}]
+        },
+        {
+          "messageId": "12345",
+          "role": "user",
+          "parts":[{"text":"text from user"}]
+        },
+        {
+          "messageId": "ai1",
+          "role": "model",
+          "parts":[{"text":"Hello! I'm Wellness Wizard, your AI health assistant. How can I help you today? 😊 Feel free to ask me anything related to your health, and I'll do my best to assist!"}]
+        } 
+      ]
+    } 
+    }
+
+  ]
